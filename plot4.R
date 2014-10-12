@@ -23,7 +23,7 @@ plot(dt1$Global_active_power~dt1$Date_time, type="l", ylab="Global Active Power 
 plot(dt1$Voltage~dt1$Date_time, type="l", ylab="Voltage", xlab="datetime")
 
 ## plot 3
-plot(dt1$Sub_metering_1~dt1$Date_time, type="l", ylab="Global Active Power (kilowatts)", xlab="")
+plot(dt1$Sub_metering_1~dt1$Date_time, type="l", ylab="Energy sub metering", xlab="")
 lines(dt1$Sub_metering_2~dt1$Date_time,col="red")
 lines(dt1$Sub_metering_3~dt1$Date_time,col="blue")
 legend("topright",
